@@ -1,0 +1,70 @@
+/* impoert google fonts - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+
+}
+.logo img {
+    width: 68px;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background: rgb(226, 226, 255);
+}
+
+.container {
+    background-image: url(bg.jpg);
+    background-size: cover ;
+    position: relative;
+    border-radius: 25px ;
+    padding: 25px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+.logo .mctext {
+    color: white;
+    margin-right: 150px;
+    font-weight: 400;
+}
+
+.logo .chip{
+    width: 50px;
+}
+header .logo {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between ;
+}
+h6 {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+.container .card-details {
+    margin-top: 40px;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h5.number {
+     font-size: 18px;
+     letter-spacing: 1px;
+     margin-top: 4px;
+
+}
+.card-details .name {
+    margin-top: 5px;
+
+}
+.card-details .valid-date .dategan {
+    font-weight: 400;
+}
